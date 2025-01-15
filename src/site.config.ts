@@ -27,13 +27,13 @@ export const siteConfig: SiteConfig = {
 // Used to generate links in both the Header & Footer.
 export const menuLinks: { path: string; title: string }[] = [
   // 修改：改为中文
-	{
+    {
+	path: "/about/",
+	title: "关于",
+	},	
+    {
 		path: "/",
 		title: "主页",
-	},
-	{
-		path: "/about/",
-		title: "关于",
 	},
 	{
 		path: "/posts/",
