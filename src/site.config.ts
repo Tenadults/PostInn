@@ -4,7 +4,8 @@ import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: "驿站",
-	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
+	// Date.prototype.toLocaleDateString() 参数, 位于:src/utils/date.ts.
+	// 日期.原型.
 	date: {
 		locale: "zh-CN",
 		options: {
@@ -70,6 +71,7 @@ export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 		return `[data-theme="${theme.name}"]`;
 	},
 	// One dark, one light theme => https://expressive-code.com/guides/themes/#available-themes
-	themes: ["dracula", "github-light"],
+	//直接把对应主题的名字代入到下面的“_”中
+	themes: ["everforest-dark", "everforest-light"],
 	useThemedScrollbars: false,
 };
