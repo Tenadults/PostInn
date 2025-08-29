@@ -1,3 +1,9 @@
+## 说明
+这是一个Fork别人汉化后的项目，汉化项目原址：
+https://github.com/zouzonghao/Astro-theme-Cactus-zh_CN
+
+---
+
 <div align="center">
   <img alt="Astro Cactus logo" src="https://github.com/chrismwilliams/astro-theme-cactus/assets/12715988/85aa0d3c-ef6a-44e2-954d-ef035b4f4315" width="70" />
 </div>
